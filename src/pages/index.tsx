@@ -1,6 +1,6 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-const opa = 'aaa';
+const opa = 'aaaa';
 
 export default function Home() {
   return (
@@ -207,5 +207,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
