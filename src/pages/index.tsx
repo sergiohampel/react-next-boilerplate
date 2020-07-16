@@ -1,5 +1,7 @@
 import Head from 'next/head'
 
+const opa = 'aaa';
+
 export default function Home() {
   return (
     <div className="container">
