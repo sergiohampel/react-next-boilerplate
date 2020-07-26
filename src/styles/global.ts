@@ -7,12 +7,15 @@ export const GlobalStyles = createGlobalStyle`
       padding: 0;
     }
 
+    html {
+      font-size: 62.5%;
+    }
+
     html, body, #__next {
       height: 100%;
     }
 
     body {
       font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 10px;
     }
 `;
