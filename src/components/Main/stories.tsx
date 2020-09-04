@@ -1,19 +1,12 @@
-import { withKnobs, text } from '@storybook/addon-knobs';
+import { Story, Meta } from '@storybook/react/types-6-0';
 
 import { Main } from '.';
 
 export default {
   title: 'Main',
   component: Main,
-  decorators: [withKnobs],
-};
+} as Meta;
 
-export const Index = () => (
-  <Main
-    title={text('Title', 'Sérgio Hampel')}
-    description={text(
-      'Description',
-      'Typescript, React, NextJS e Styled Components'
-    )}
-  />
-);
+export const Index: Story = (args) => <Main {...args} />;
+
+export const Secondary: Story = (args) => <Main {...args} />;
